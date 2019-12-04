@@ -1,0 +1,19 @@
+{
+  "name": "woodsfinal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Woods-Taylor/WoodsFinal.git"
+  },
+  "author": "Taylor Woods",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Woods-Taylor/WoodsFinal/issues"
+  },
+  "homepage": "https://github.com/Woods-Taylor/WoodsFinal#readme"
+}
