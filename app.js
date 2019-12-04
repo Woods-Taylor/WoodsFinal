@@ -12,8 +12,8 @@ var title = "";
 var url = "";
 
 app.get('/', function(req, res){
-    myFetch()
-    res.render("index", {img:img, year:year, title:title})
+    getData()
+    res.render("index", {date:date, explanation:explanation, title:title, url:url})
 });
 
 function getData(){
