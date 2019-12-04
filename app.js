@@ -12,7 +12,7 @@ var title = "";
 var url = "";
 
 app.get('/', function(req, res){
-    myFetch()
+    getData()
     res.render("index", {img:img, year:year, title:title})
 });
 
