@@ -13,7 +13,7 @@ var url = "";
 
 app.get('/', function(req, res){
     getData()
-    res.render("index", {img:img, year:year, title:title})
+    res.render("index", {date:date, explanation:explanation, title:title, url:url})
 });
 
 function getData(){
